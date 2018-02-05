@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Roboto:400,400i,700,700i');
+
+@import 'variables';
+@import 'sakura';
+
+
+details {
+	margin-bottom: 1.5em;
+	background: $color-bg-alt;
+
+	summary {
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&[open=""] {
+
+		border-right: 5px solid $color-fade;
+
+		summary + * {
+			padding: 0 1.5em;
+		}
+
+		:last-child {
+			padding-bottom: 1.5em;
+		}
+
+	}
+
+}

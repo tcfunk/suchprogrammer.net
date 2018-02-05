@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lora', serif;
+	// margin: $font-base 0;
+	line-height: 1.1;
+	font-weight: bold;
+}
+
+$loop-end: 6;
+@for $i from 2 through $loop-end {
+	h#{$i} {
+		font-size: $font-base + ($font-bump * ($loop-end - $i));
+	}
+}
+h1 {
+	font-size: 2.35em;
+}
