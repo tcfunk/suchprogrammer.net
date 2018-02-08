@@ -1,9 +1,15 @@
 import React from "react"
+import Article from "../components/article";
 
 class Home extends React.Component {
 	render() {
 		return (
-			<h1>Hello world</h1>
+			<div>
+				<Article></Article>
+				<Article></Article>
+				<Article></Article>
+				<Article></Article>
+			</div>
 		)
 	}
 }
