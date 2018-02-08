@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+}
+
+.site {
+	color: $color-bg;
+
+	max-width: 60em;
+	height: 100%;
+	margin: auto;
+
+	display: grid;
+	grid-gap: 5%;
+
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+		"aside"
+		"main";
+
+	@media screen and (min-width: 700px) {
+		grid-template-columns: 65% 30%;
+		grid-template-rows: 100%;
+		grid-template-areas: "main aside";
+	}
+
+	.main {
+		grid-area: main;
+		padding: 1em;
+		background: linear-gradient(to bottom right, red, blue);
+		border-radius: 1em;
+		box-shadow: 5px 10px 8px #888;
+	}
+
+	.aside {
+		grid-area: aside;
+		padding: 1em;
+		background: linear-gradient(to bottom right, red, blue);
+		border-radius: 1em;
+		box-shadow: 5px 10px 8px #888;
+	}
+}

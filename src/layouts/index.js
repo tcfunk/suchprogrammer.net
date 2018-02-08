@@ -1,12 +1,21 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import Aside from '../components/aside';
+
 import '../../sass/style.scss';
 
 const TemplateWrapper = ({children}) => (
 	<div className="site">
 		<Helmet title="suchprogrammer.net" />
-		{children()}
+
+		<div className="aside">
+			<Aside></Aside>
+		</div>
+
+		<div className="main">
+			{children()}
+		</div>
 	</div>
 );
 
