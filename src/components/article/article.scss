@@ -9,9 +9,15 @@ article {
 }
 
 .article-title {
-	margin-top: 0;
-	margin-bottom: 0;
-	border-bottom: 2px solid $color-blossom;
+	background: $color-fade;
+	background: linear-gradient(to right, $color-fade, $color-bg);
+	padding-bottom: 4px;
+
+	h2 {
+		background: $color-bg;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 .date-posted {
