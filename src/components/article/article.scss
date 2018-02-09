@@ -1,0 +1,22 @@
+@import '../../../sass/variables';
+
+article {
+	margin-top: 3em;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.article-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 2px solid $color-blossom;
+}
+
+.date-posted {
+	display: block;
+	margin-bottom: 1em;
+	width: 100%;
+	text-align: right;
+}

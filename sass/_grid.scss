@@ -3,7 +3,7 @@ html, body {
 }
 
 .site {
-	color: $color-bg;
+	// color: $color-bg;
 
 	max-width: 60em;
 	height: 100%;
@@ -30,16 +30,16 @@ html, body {
 	.main {
 		grid-area: main;
 		padding: 1em;
-		background: linear-gradient(to bottom right, red, blue);
-		border-radius: 1em;
-		box-shadow: 5px 10px 8px #888;
+		// background: linear-gradient(to bottom right, red, blue);
+		// border-radius: 1em;
+		// box-shadow: 5px 10px 8px #888;
 	}
 
 	.aside {
 		grid-area: aside;
 		padding: 1em;
-		background: linear-gradient(to bottom right, red, blue);
-		border-radius: 1em;
-		box-shadow: 5px 10px 8px #888;
+		// background: linear-gradient(to bottom right, red, blue);
+		// border-radius: 1em;
+		// box-shadow: 5px 10px 8px #888;
 	}
 }

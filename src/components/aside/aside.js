@@ -2,13 +2,14 @@ import React from 'react';
 import Link from 'gatsby-link'
 
 import './aside.scss';
+import logo from './tyler-circle-crop.png';
 
 class Sidebar extends React.Component {
 	render() {
 		return (
 			<aside>
 				<figure>
-					<img className="circle" src="http://tasteofmanchester.com/media/news/toast_main.jpg" alt="me"/>
+					<img className="circle" src={logo} alt="me"/>
 				</figure>
 
 				<h1 className="name-header">Tyler Funk</h1>
@@ -17,9 +18,9 @@ class Sidebar extends React.Component {
 
 				<nav>
 					<ul>
-						<li><Link to="blog">Articles</Link></li>
-						<li><Link to="about">About</Link></li>
-						<li><Link to="contact">Contact</Link></li>
+						<li><Link activeClassName="current" to="/">Articles</Link></li>
+						<li><Link activeClassName="current" to="about">About</Link></li>
+						<li><Link activeClassName="current" to="contact">Contact</Link></li>
 					</ul>
 				</nav>
 			</aside>

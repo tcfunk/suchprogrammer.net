@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Aside from '../components/aside';
+import Aside from '../components/aside/aside';
 
 import '../../sass/style.scss';
 
