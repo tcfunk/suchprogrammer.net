@@ -22,12 +22,6 @@ body {
 	padding: 13px;
 }
 
-@media (max-width: 684px) {
-	body {
-			// font-size: $font-size-base * 0.85;
-	}
-}
-
 @media (max-width: 382px) {
 	body {
 			font-size: $font-size-base * 0.85;

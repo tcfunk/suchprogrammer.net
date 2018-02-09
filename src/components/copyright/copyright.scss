@@ -1,0 +1,8 @@
+@import '../../../sass/variables';
+
+.copyright {
+	small {
+		font-size: 80%;
+		color: lighten($color-text, 10%);
+	}
+}

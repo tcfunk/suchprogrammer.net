@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Aside from '../components/aside/aside';
+import Copyright from '../components/copyright/copyright';
 
 import '../../sass/style.scss';
 
@@ -18,7 +19,7 @@ const TemplateWrapper = ({children}) => (
 		</div>
 
 		<div className="copyright">
-			Copyright clause
+			<Copyright></Copyright>
 		</div>
 
 		<div className="main">
