@@ -13,6 +13,14 @@ const TemplateWrapper = ({children}) => (
 			<Aside></Aside>
 		</div>
 
+		<div className="social">
+			Social icons
+		</div>
+
+		<div className="copyright">
+			Copyright clause
+		</div>
+
 		<div className="main">
 			{children()}
 		</div>
