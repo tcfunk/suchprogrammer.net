@@ -10,7 +10,7 @@ article {
 
 .article-title {
 	background: $color-fade;
-	background: linear-gradient(to right, $color-fade, $color-bg);
+	background: linear-gradient(to right, $color-blossom, $color-bg);
 	padding-bottom: 4px;
 
 	h2 {
@@ -25,4 +25,6 @@ article {
 	margin-bottom: 1em;
 	width: 100%;
 	text-align: right;
+
+	// color: $color-fade;
 }
