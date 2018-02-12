@@ -3,16 +3,21 @@
 
 ul.social-icons-list {
 	list-style: none;
-	margin-left: 0;
+	margin: 0;
 	padding-left: 0;
+
+	li {
+		display: inline;
+	}
 }
 
 .icon {
 	border: none;
-	display: block;
+	display: table-cell;
 
 	width: 2em;
 	height: 2em;
+	// border: 1px solid black;
 
 	svg {
 		max-width: 100%;
