@@ -1,8 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link'
 
+
 import './aside.scss';
 import logo from './tyler-circle-crop.png';
+
 
 class Sidebar extends React.Component {
 	render() {

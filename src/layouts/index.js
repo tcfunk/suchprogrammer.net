@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 
 import Aside from '../components/aside/aside';
 import Copyright from '../components/copyright/copyright';
+import Social from '../components/social';
 
 import '../../sass/style.scss';
 
@@ -15,7 +16,7 @@ const TemplateWrapper = ({children}) => (
 		</div>
 
 		<div className="social">
-			Social icons
+			<Social />
 		</div>
 
 		<div className="copyright">
