@@ -31,6 +31,14 @@ ul.social-icons-list {
 	&:hover {
 		border: none;
 
+		&.itch svg path {
+			fill: #FA5C5C;
+		}
+
+		&.twitter svg path {
+			fill: #1da1f2;
+		}
+
 		svg path {
 			fill: $color-fade;
 		}
