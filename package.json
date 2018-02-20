@@ -10,6 +10,8 @@
   "dependencies": {
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
+    "gatsby-source-filesystem": "^1.5.20",
+    "gatsby-transformer-remark": "^1.7.33",
     "helmet": "^3.10.0",
     "react-helmet": "^5.2.0"
   },
