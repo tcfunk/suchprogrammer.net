@@ -84,7 +84,8 @@ blockquote {
 	font-style: italic;
 	margin-left: 1.5em;
 	padding-left: 1em;
-	border-left: 3px solid $color-blossom;
+	border-left: 3px solid $color-fade;
+	// background-color: $color-bg-alt;
 }
 
 img {
