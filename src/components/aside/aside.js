@@ -20,7 +20,7 @@ class Sidebar extends React.Component {
 
 				<nav>
 					<ul>
-						<li><Link activeClassName="current" to="/">Articles</Link></li>
+						<li><Link activeClassName="current" to="/" exact>Articles</Link></li>
 						<li><Link activeClassName="current" to="about">About</Link></li>
 						<li><Link activeClassName="current" to="contact">Contact</Link></li>
 					</ul>
