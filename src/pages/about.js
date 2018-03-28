@@ -6,7 +6,7 @@ class About extends React.Component {
         return (
             <div>
                 <h1>Who am I?</h1>
-                <p>I'm Tyler.</p>
+                <p></p>
             </div>
         )
     }
