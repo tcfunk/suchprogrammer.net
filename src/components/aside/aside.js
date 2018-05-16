@@ -18,13 +18,13 @@ class Sidebar extends React.Component {
 
 				<p>House Funk, Second of His Name, Wielder of Code, Biker of Paths, Father of Babby</p>
 
-				<nav>
+				{/* <nav>
 					<ul>
 						<li><Link activeClassName="current" to="/" exact>Articles</Link></li>
 						<li><Link activeClassName="current" to="about">About</Link></li>
 						<li><Link activeClassName="current" to="contact">Contact</Link></li>
 					</ul>
-				</nav>
+				</nav> */}
 			</aside>
 		);
 	}
